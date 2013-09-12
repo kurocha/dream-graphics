@@ -21,6 +21,9 @@ define_target "dream-graphics" do |target|
 	target.depends "Library/Dream/Display"
 	target.depends "Library/Dream/Imaging"
 	target.depends "Library/Dream/Text"
+
+	target.depends "Library/OpenGL"
+
 	target.depends "Library/Euclid"
 	
 	target.provides "Library/Dream/Graphics" do
